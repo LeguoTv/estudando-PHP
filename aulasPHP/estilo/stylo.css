@@ -1,17 +1,20 @@
 body {
   margin: 0;
-  background-image: url(uma\ imagem\ de\ uma\ linguagem\ de\ programação.png);
+  background-image: url("uma imagem de uma linguagem de programação.png");
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
+
 div {
   background-color: rgb(204, 204, 204);
   width: 500px;
   height: 500px;
   display: flex;
-  margin-top: 10px;
+  flex-direction: column; /* Alinha os elementos na vertical */
   border: 2px solid;
   border-radius: 5px;
+  padding: 20px; /* Adiciona um espaçamento interno */
+  box-sizing: border-box; /* Garante que padding não afete a largura total */
 }
